@@ -167,6 +167,8 @@ type productVariables struct {
 	Override_rs_driver *string `json:",omitempty"`
 
 	DeviceKernelHeaders []string `json:",omitempty"`
+
+	Libart_img_base            *string `json:",omitempty"`
 }
 
 func boolPtr(v bool) *bool {
